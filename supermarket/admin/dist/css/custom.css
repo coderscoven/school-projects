@@ -1,0 +1,94 @@
+/*--  custom css  
+    ->by the coderscoven
+    ->2018
+--*/
+
+/*--  loading google fonts hosted offline  --*/
+@font-face{	
+	font-family:'Source Sans Pro';
+	font-style:normal;
+	font-weight:400;
+	src: url('../../../assets/css/fonts/source-sans-pro-v10-latin-regular.eot');/*IE9 Compat Modes*/
+	src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+		url('../../../assets/css/fonts/source-sans-pro-v10-latin-regular.eot?#iefix')format('embedded-opentype'),/* IE6-IE8*/
+		url('../../../assets/css/fonts/source-sans-pro-v10-latin-regular.woff2')format('woff2'),/*Super Modern Browsers*/
+		url('../../../assets/css/fonts/source-sans-pro-v10-latin-regular.woff')format('woff'),/*Modern Browsers*/
+		url('../../../assets/css/fonts/source-sans-pro-v10-latin-regular.ttf')format('truetype'),/*Safari, Android, IOS*/
+		url('../../../assets/css/fonts/source-sans-pro-v10-latin-regular.svg#SourceSansPro')format('svg');/*legacy IOS*/
+	}
+textarea, p, a, small, li, label, span, #input_item_description {
+  font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+/* -- other styles  -- */
+.right_align{
+	text-align:right;
+	margin-left: 50%;
+}
+#btn_add_product{
+
+}
+#btn_add_product:hover{
+	color: #fff !important;
+	background-color: #39cccc !important;
+}
+.w3_image_upload{
+	border: 1px solid #F7F7F0;
+	margin-bottom: 35px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+.w3_image_upload input[type="file"]{
+	padding: 0 10px;
+}
+/*	jQuery upload preview	*/
+.upload_preview_canvas{
+	border: 1px dotted #999;
+	padding: 5px;
+	width: 100%;
+}
+.upload_preview_canvas .row {
+	padding:5px 15px;
+	margin-left: 15px;
+}
+.upload_preview_canvas .col-sm-4 {
+		padding:5px 15px;
+}
+.image-preview {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  background-color: #999;
+  border: 1px solid #999;
+  color: #ecf0f1;
+}
+.image-preview input {
+  line-height: 100px;
+  font-size: 100px;
+  position: absolute;
+  opacity: 0;
+  z-index: 10;
+}
+.image-preview label {
+  position: absolute;
+  z-index: 5;
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: #bdc3c7;
+  width: 80px;
+  height: 15px;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+.w3_remove_photo_class {
+}
+.w3_remove_photo_class: hover{
+	cursor: pointer;
+}

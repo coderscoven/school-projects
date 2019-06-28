@@ -1,0 +1,158 @@
+
+.customer_registration_body{
+/*background-color:#fff;*/
+
+margin-top:11px;
+
+height:970px;
+width: 884px;
+ margin: 0 auto;
+padding: 0 57px 0 57px;
+ position: relative; 
+}
+
+
+
+
+
+/* From Start Here */
+
+
+.form_box {
+  border:1px double #c00;
+  border-radius: 5px;
+clear:both;
+    display: block;
+
+    padding: 30px 25px 25px 25px;
+   /*width: 620px;*/
+
+		height:850px;
+		margin:0px auto;
+}
+
+.form_box .title_name_labels {
+    clear: both;
+    display: inline-block;
+    float: left;
+    color: #333;
+    font-family: TitilliumText22LBold,ArtifikaMedium,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1em;
+    margin: 5px 0;
+    padding: 12px 0 0 0;
+    width: 145px;
+}
+
+
+.form_box .user_input_entry, .form_box textarea, .select_user_option,.captcha_user_entry {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+    color: #666666;
+    font-family: TitilliumText22LBold,ArtifikaMedium,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin: 9px 0;
+    padding: 8px;
+    vertical-align: top;
+    width: 350px;
+
+}
+.hint_styling{
+text-align:center;
+font-size:12px;
+}
+.male_female_label{
+cursor:pointer;
+
+}
+
+
+.form_box input[type=radio]{
+    margin: 8px 0px;
+    padding: 8px;
+    vertical-align: top;
+    width: 30px;
+}
+
+.form_box input.submit {
+    background: -moz-linear-gradient(center bottom , #0391fe 12%, #4ea0ee 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #0080e5;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 6px 16px;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+    width: auto;
+    letter-spacing: 1px;
+	
+}
+
+.form_box input.submit:hover {
+    background: -moz-linear-gradient(center bottom , #4ea0ee 12%,#0391fe  100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #d7e3ee;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.otherinputs {
+
+	width: 390px;
+
+	
+	color: #333;
+    font-family: TitilliumText22LBold,ArtifikaMedium,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+}
+.submit{
+	margin: 15px 0px 8px 0px;
+
+}
+.otherinputs span{
+	 line-height: 30px;
+    margin: 0 20px 0 0;
+}
+.gender-div{
+	
+
+	
+	color: #333;
+    font-family: TitilliumText22LBold,ArtifikaMedium,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+}
+.gender-div span{
+line-height: 30px;
+    margin: 0 20px 0 0;
+}
+.inputcaptcha{
+	width: 120px !important;
+	float: left;
+}
+
+.image_captcha{
+	border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin:0px auto 0px auto;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	width:225px;
+   
+    
+}
+
+.refresh{
+	float: left;
+	margin: 14px 5px;
+	cursor: pointer;
+}
+
+
+
+
+/*     */

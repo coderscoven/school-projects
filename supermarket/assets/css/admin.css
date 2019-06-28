@@ -1,0 +1,483 @@
+html,
+body
+{
+margin:0px auto 0px auto;
+padding:0px;
+width:1000px;
+background-color:#5F9EA0;
+
+}
+a,ul,li{
+list-style:none;
+text-decoration:none;
+}
+	.sub-hide{
+	display:none;
+	}
+#category_main_table1{
+	width:900px;
+	
+	}
+	.cat-wrapper{
+	width:230px;
+	
+	height:25px;
+	}
+	
+.main_table{/**categories table***/
+width:500px;
+table-layout:fixed;
+}	
+	
+#administrator_page_layout{
+width:950px;
+margin:0px auto 0px auto;
+clear:both;
+}
+#administrator_header{
+width:850px;
+margin:0px auto 0px auto;
+
+}
+#administrator_header .admin_title{
+text-align:right;
+}
+#administrator_header .admin_image{
+float:left;
+height:50px;
+width:50px;
+}
+
+#administrator_content_body{
+
+margin:0px auto 150px auto;/********push footer down************/
+width:950px;
+
+}
+	
+#product-location-details{
+width:290px;
+float:right;
+background-color:gray;
+margin-left:5px;
+padding:5px;
+height:300px;
+border:1px solid;
+border-color:red orange green blue;
+border-radius:5px; 
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+
+}
+.table-products{
+width:285px;
+height:280px;
+}
+#administrator_content{
+background-color:gray;
+width:590px;
+height:550px;
+border:1px solid;
+border-color:red orange green blue;
+border-radius:5px; 
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+margin-top:5px;
+
+}
+
+.search_admin_page{
+margin:3px 73px 10px auto;
+float:right;
+}
+
+/*****menu***************/
+#administrator_navigation{
+
+width:200px;
+}
+.ddsmoothmenu{
+	clear:both;
+	width: 725px;
+	height: 50px;
+	padding: 0 20px;
+	margin: 0 0px auto 60px;
+	background: #262626;
+}
+
+.ddsmoothmenu ul{
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+/*Top level list items*/
+.ddsmoothmenu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li a {
+	display: block;
+	padding: 8px 25px ;
+	height: 34px;
+	line-height: 35px;
+	font-size: 17px;
+	color:white;	
+	text-decoration: none;
+	outline: none;
+	text-align: center;
+	letter-spacing:normal;
+}
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a:hover { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+	color: #fff;
+	background: #313131;
+}
+
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul {
+	position: absolute;
+	left: 0;
+	padding: 10px 0 0;
+	display: none; /*collapse all sub menus to begin with*/
+	visibility: hidden;
+	background: #313131;
+	border-bottom: 4px solid #000
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+display: list-item;
+float: none;
+}
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{
+	font-weight: 400;
+	width: 170px; /*width of sub menus*/
+	height: 50px;
+	padding: 0 5px;
+	line-height: 20px;
+	font-size: 14px;	
+	text-align: justify;
+	background: none;
+	color: #ccc;
+	border-bottom: 1px solid #222;
+	border-top: 1px solid #444;
+	-webkit-border-radius:0px 0px 5px 0px;
+	border-radius:10px 0px;
+}
+.ddsmoothmenu ul li ul li a.selected, .ddsmoothmenu ul li ul li a:hover {
+	color: #fff;
+	
+	background: #222;
+}
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+}
+
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+opacity: 0.5;
+}
+/********************/
+.header_name{
+font-weight:bold;
+}
+.input_decoration{
+font-size:12px;
+height:25px;
+}
+textarea{
+font-family:verdana, arial narrow;
+font-size:12px;
+}
+.action_required{
+margin:15px auto 0px auto;
+width:220px;
+}
+.action_required #send{
+float:left;
+}
+.action_required #clear{
+float:right;
+}
+#clear, #send:hover{
+cursor:pointer;
+}
+
+/************/
+.allproducts_div{
+width:800px;
+margin:0px auto 0px auto;
+
+}
+.allproducts_table{
+width:770px;
+
+text-align:center;
+margin:8px 0px 0px -42px;
+
+}
+.allcustomer_table{
+width:750px;
+
+text-align:center;
+margin:8px 0px 0px -42px;
+}
+
+.allpurchased_table{
+width:760px;
+
+text-align:center;
+margin:8px 0px 0px -42px;
+}
+
+
+.table_headers{
+font-weight:bold;
+color:#800000;
+font-family:verdana, calibri, arial narrow;
+}
+
+
+/*********/
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Styling the main wrapper */
+#main-wrapper {
+	width: 100%;
+	height: 100%;
+	margin:0px auto 0px auto;
+}
+/* Styling the login wrapper */
+#login-wrapper {
+	margin: 0px auto;
+	width: 300px;
+	height: 180px;
+	padding: 50px 1px 10px 50px;
+	/*margin-top: 150px;*/
+	-moz-box-shadow: 0px 0px 10px #888;
+	-o-box-shadow: 0px 0px 10px #888;
+	-webkit-box-shadow: 0px 0px 10px #888;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-o-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	float:left;
+}
+
+#register-wrapper {
+	margin: 0px auto;
+	width: 300px;
+	height: 250px;
+	padding: 50px 1px 10px 50px;
+	margin-top: -55px;
+	-moz-box-shadow: 0px 0px 10px #888;
+	-o-box-shadow: 0px 0px 10px #888;
+	-webkit-box-shadow: 0px 0px 10px #888;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-o-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	float:left;
+}
+.or-option{
+color:#D2691E;
+
+}
+.input-regtext-decor1{
+font-size: .9em;
+    border: 2px solid #666;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+}
+.input-regtext-decor1{
+    display: block;
+    margin: 0;
+    padding: .4em;
+    width: 80%;
+}
+
+
+
+.login-label{
+    clear: left;
+    text-align: right;
+    width: 15%;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffc000;
+}
+
+/* the fields */
+
+#input-text-decor1 {
+    font-size: .9em;
+}
+#input-text-decor2 {
+    font-size: .9em;
+}
+
+#input-text-decor1 {
+    border: 2px solid #666;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+}
+#input-text-decor2 {
+    border: 2px solid #666;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#input-text-decor1  {
+    display: block;
+    margin: 0;
+    padding: .4em;
+    width: 80%;
+
+}
+#input-text-decor2  {
+    display: block;
+    margin: 0;
+    padding: .4em;
+    width: 80%;
+
+}
+/* Place a border around focused fields */
+
+#form-reg-login *:focus {
+    border: 2px solid #7c412b;
+    outline: none;
+}
+
+/* Display correctly filled-in fields with a green background */
+
+#input-text-decor1:valid {
+    background: #efe;
+}
+#input-text-decor2:valid {
+    background: #efe;
+}
+/* Submit buttons */
+
+.buttons {
+    text-align: center;
+    margin: 20px 0 0 -80px;
+}
+
+#submit-button,#just-button {
+    display: inline;
+    margin: 0 5px;
+	margin-left:20px;
+    width: 10em;
+    padding: 10px;
+    border: 2px solid #7c412b;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    color: #fff;
+    background: #ca5f34;
+    font-weight: bold;
+    -webkit-appearance: none;
+}
+#submit-button:hover, #submit-button:active{
+    cursor: pointer;
+    background: #fff;
+    color: #ef7d50;
+}
+ #just-button:hover, #just-button:active {
+    cursor: pointer;
+    background: #fff;
+    color: #ef7d50;
+ }
+#just-button:active, #just-button:active {
+    background: #eee;
+    -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+    -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+}
+
+/* Form height, margin, padding */
+#form-reg-login  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*
+#form-reg-login  ul li {
+    margin: .9em 0 0 0;
+    padding: 0;
+}*/
+
+#form-reg-login  * {
+    line-height: 1em;
+}
+
+
+
+
+
